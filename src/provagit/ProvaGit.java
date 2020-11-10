@@ -18,7 +18,11 @@ public class ProvaGit {
         int i=2;
         while(true){
             System.out.println("ehi ciao: "+i);
+            System.out.println("vediamo se funziona ");
             i=i*i;
+            if(i==10000000){
+                break;
+            }
         }
     }
     
